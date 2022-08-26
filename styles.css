@@ -441,7 +441,7 @@ header.sticky{
 
 @media (max-width: 1270px) {
     header {
-        padding: 18px 4%;
+        padding: 10px 2%;
     }
 
     header .sticky {
@@ -455,6 +455,10 @@ header.sticky{
         text-align: center;
     }
 
+    .logo{
+        width: 400px;
+    }
+
     :root {
         --big-font: 3.8rem;
         --h2-font: 3.8rem;
@@ -464,9 +468,17 @@ header.sticky{
 }
 
 @media (max-width: 990px) {
+
+    body{
+        padding: 0%;
+        margin: 0%;
+    }
     
     .home {
         height: 85vh;
+        padding: 0%;
+        margin: 0;
+        width: 500px;
     }
 
     #menu-icon {
@@ -512,7 +524,14 @@ header.sticky{
         grid-template-columns: 1fr;
         align-items: center;
         text-align: center;
-        padding: 10%;
+        padding: 0%;
+    }
+
+    .abouttwo {
+        grid-template-columns: 1fr;
+        align-items: center;
+        text-align: center;
+        padding: 0%;
     }
 
     .about-img{
@@ -520,20 +539,38 @@ header.sticky{
         margin-bottom: 30px;
     }
 
+    .services {
+        padding: 0%;
+        margin: 0;
+    }
+
     .about-img img {
         max-width: 100%;
-        width: 700px;
+        width: 300px;
         height: auto;
         padding: 5%;
     }
 
     .contact {
         grid-template-columns: 1fr;
+        padding: 0%;
     }
 
     .contact-img {
         text-align: center;
         margin-bottom: 25px;
+    }
+
+    .contact-img{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .contact-img img {
+        max-width: 100%;
+        width: 200px;
+        height: auto;
+        padding: 5%;
     }
 
     .contact-form {
