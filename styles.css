@@ -489,6 +489,11 @@ header.sticky{
         padding: 1.1rem;
         margin: 1.3rem;
         border-left: 2px solid var(--text-color);
+        display: none;
+    }
+
+    .h-btn {
+        display: none;
     }
 
     .navbar a:hover {
@@ -500,11 +505,14 @@ header.sticky{
     }
 
     .navbar .active {
-        top: 100%;
+        top: 10%;
     }
 
     .about {
         grid-template-columns: 1fr;
+        align-items: center;
+        text-align: center;
+        padding: 10%;
     }
 
     .about-img{
@@ -516,6 +524,7 @@ header.sticky{
         max-width: 100%;
         width: 700px;
         height: auto;
+        padding: 5%;
     }
 
     .contact {
