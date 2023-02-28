@@ -24,7 +24,7 @@ The following technologies were used for the development of the template:
 
 ![LandingPage](img/LandingPage.png)
 ![Ingredients](img/Ingredients.png)
-![AboutUs](img/Aboutus.png)
+![AboutUs](img/AboutUs.png)
 ![Products](img/Contact.png)
 
 Developed by @github/eduardodavidmm
