@@ -1,6 +1,6 @@
-# ProSeriesHN
+# RealTree Honduras
 Official RealTree Honduras website
-# ProSeries Honduras
+# RealTree Honduras
 
 Official **REALTREE** website for Honduras and Central America.
 
